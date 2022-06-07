@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Roboto&display=swap');
+
+/*
+  font-family: 'Moo Lah Lah', cursive;
+  font-family: 'Roboto', sans-serif;
+
+*/
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#navT3{
+  margin: 0;        
+  background-color:#DB6B97;
+  height: 10px;
+ padding-bottom: 2rem;
+ padding-left: 2rem;
+ padding-top: 1rem;
+  font-family: 'Moo Lah Lah', cursive;
+  font-weight: bold;
+  font-size: 1.7rem;
+  letter-spacing: 1.7px;
+  color:#e8e8e8 ;
+  
+}
+
+li{
+  list-style-type: none;  
+}
+.gameContainer{
+  background-color: #F2FFE9;  
+  height: 45rem;
+  padding: 5% 7%;
+  display: flex;
+display: grid;
+grid-template-columns: auto 500px;
+grid-template-rows: 300px 300px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 120px 120px 120px ;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
+.box{
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover{
+  background-color: rgb(187, 233, 241);
+  cursor: pointer;
+}
+.boxText{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vw;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px   rgb(7, 123, 128) ;
+  color: #03ab87;
+}
+.info{
+ font-size: 1rem;
+ transition: font-size 1s ease-in-out;
+}
+
+#reset{
+  margin: 0 20px;
+    padding: 4px 26px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #106810;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button:hover{
+  background-color: rgb(187, 233, 241);
+}
+
+.gifImg img{
+  width: 0px;
+  transition: width 1s ease-in-out;
+}
+
+@media only screen and (max-width: 870px) {
+  .gameContainer{
+    flex-wrap: wrap;
+  }
+}
